@@ -138,6 +138,13 @@ footer {
   border-top: none;
   color: var(--primary-color);
   background-color: var(--secondary-color);
+}
+
+footer h1 {
+  font-size: 16px;
+  font-family: var(--font-fam-sub-heading);
+  font-weight: var(--heading-weight-4);
+  letter-spacing: 1px;
   text-align: center;
 }
 
