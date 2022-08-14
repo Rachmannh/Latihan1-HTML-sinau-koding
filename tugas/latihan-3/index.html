@@ -199,7 +199,7 @@
         Peserta yang lolos verifikasi akan mendapatkan benefit berupa uang pertanggungan bila terjadi kecelakaan yang mengakibatkan meninggal dunia.
       </h3>
       <div class="d-flex">
-        <a class="btn btn-danger btn-lg ms-auto me-auto" href="">Daftar sekarang juga !</a>
+        <a class="btn  btn-lg ms-auto me-auto" href="">Daftar sekarang juga !</a>
       </div>
     </section>
     <!-- Akhir About Us -->
@@ -207,23 +207,27 @@
     <!-- Form -->
     <div class="container pt-5">
       <div class="form-content">
+        <!-- heading -->
         <h1 class="form-heading">
           Dapatkan perlindungan <span>AXA Care Protection</span> Sekarang
         </h1>
+        <!-- sub-heading -->
         <h5 class="form-sub-heading">
           Cukup isi data diri Anda pada form dibawah ini
         </h5>
       </div>
 
-      <!--Nama-->
+      <!-- Nama -->
       <div class="row d-flex justify-content-center mt-5">
         <form class="col-md-5">
           <div class="row mb-3">
             <label for="names" class="col-sm-2 col-form-label"><strong>Nama :</strong></label>
             <div class="col-sm-10">
-              <input type="email" class="form-control" id="names" placeholder="Masukan Nama Lengkap Anda">
+              <input type="names" class="form-control" id="names" placeholder="Masukan Nama Lengkap Anda">
             </div>
           </div>
+
+          <!-- Tanggal Lahir -->
           <div class="row mb-3">
             <label for="birthdate" class="col-sm-2 col-form-label"><strong>Birth :</strong></label>
             <div class="col-sm-10">
@@ -248,44 +252,101 @@
               <i class="bi bi-calendar3"></i>
             </div>
           </div>
-          <fieldset class="row mb-3">
-            <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
-            <div class="col-sm-10">
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                <label class="form-check-label" for="gridRadios1">
-                  First radio
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                <label class="form-check-label" for="gridRadios2">
-                  Second radio
-                </label>
-              </div>
-              <div class="form-check disabled">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
-                <label class="form-check-label" for="gridRadios3">
-                  Third disabled radio
-                </label>
-              </div>
-            </div>
-          </fieldset>
+
+          <!-- Email -->
           <div class="row mb-3">
-            <div class="col-sm-10 offset-sm-2">
+            <label for="email" class="col-sm-2 col-form-label"><strong>Email :</strong></label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" placeholder="Masukan Email Anda">
+            </div>
+          </div>
+          
+          <!-- Phone -->
+          <div class="row mb-3">
+            <label for="phone" class="col-sm-2 col-form-label"><strong>Phone:</strong></label>
+            <div class="col-sm-10">
+              <input type="phone" class="form-control" id="phone" placeholder="Masukan Nomor Handphone Anda">
+            </div>
+          </div>
+
+          <!-- Card -->
+          <div class="row mb-3">
+            <label for="birthdate" class="col-sm-2 col-form-label"><strong>Card :</strong></label>
+            <div class="col-sm-10">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">VISA</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">MASTERCARD</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                <label class="form-check-label" for="inlineCheckbox3">BCA CARD</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                <label class="form-check-label" for="inlineCheckbox3">Lainya</label>
+              </div>
+
+              <!-- Term -->
+              <div class="term mt-3">
+                <a class="terms-link" href=""><i>Syarat & Ketentuan Aplikasi</i></a>
+              </div>
+
+              <!-- Pernyataan -->
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck1">
-                <label class="form-check-label" for="gridCheck1">
-                  Example checkbox
+                <input class="pernyataan-check-input form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="pernyataan form-check-label" for="defaultCheck1">
+                  Saya mengetahui dan menyetujui syarat dan ketentuan diatas
+                  serta bersedia dihubungi oleh PT.AXA Life Indonesia untuk mendapatkan
+                  penjelasan tentang produk dan informasi lainnya
                 </label>
+              </div>
+
+              <!-- Submit Button -->
+              <div class="button">
+                <a class="btn btn-dark btn-md" href="">Kirim</a>
+              </div>
+
+              <!-- Text -->
+              <div class="text">
+                <p>
+                  * Promo ini hanya berlaku bagi pemegang atau pemilik kartu kredit <br> 
+                  Syarat dan ketentuan lain diatur sebagaimana tertulis pada bagian syarat dan ketentuan.
+                  <br>
+                  PT.AXA Life Indonesia terdaftar & diawasi oleh Otoritas Jasa keuangan (OJK)
+                </p>
               </div>
             </div>
           </div>
         </form>
       </div>
-      <!-- Akhir Nama -->
+      </div>
       
     <!-- Akhir Form -->
+
+    <!-- Langkah -->
+    <section id="asuransi-section">
+      <div class="container">
+        <h1 class="asuransi-heading">
+          4 Langkah mudah mendapatkan Asuransi <span>AXA Life Indonesia</span> di Pilihkartu
+        </h1>
+      </div>
+      <div class="container">
+        <img src="./assets/img/langkah.png" class="langkah-img img-fluid" alt="">
+      </div>
+    </section>
+    <!-- Akhir Langkah -->
+
+    <!-- Footer -->
+      <footer class="d-flex align-items-center text-center">
+        <div class="container">
+          <p class="copyright col-md-4 mb-0 text-center">Copyright (c)2017 Pilihkartucom and AXA All Rights Reserved</p>
+        </div>
+      </footer>
+    <!-- Akhir Footer -->
 
     <!-- BS 5 JS -->
     <script
