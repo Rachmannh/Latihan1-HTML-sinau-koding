@@ -128,7 +128,8 @@ body {
 }
 
 .left-content-paragraph h1 {
-  font-size: 16px;
+  font-family: var();
+  font-size: 14px;
   font-weight: 500;
   text-align: end;
 }
@@ -138,7 +139,7 @@ body {
 }
 
 .right-content-paragraph h1 {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   text-align: start;
 }
@@ -148,6 +149,96 @@ body {
 }
 
 /* akhir why-us */
+
+/* About Us */
+
+#about {
+  background-color: #ebf0fb;
+  width: 100%;
+  height: 282px;
+}
+
+#about h1 {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#about h3 {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.about-heading span {
+  color: #063585;
+}
+
+.btn-danger {
+  margin-top: 30px;
+  background-color: #063585;
+  border-color: #063585;
+  padding: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  box-shadow: #d5cdc3 7px 7px 2.6px;
+}
+
+.btn-danger:hover {
+  background-color: #063585e3;
+  border-color: #063585e3;
+  transition: 0.6s;
+}
+
+/* Akhir About Us */
+
+/* Form */
+
+.form-heading {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.form-sub-heading {
+  margin-top: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.col-form-label {
+  font-size: 16px;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.form-select {
+  display: flex !important;
+  float: left;
+  margin-right: 10px;
+  flex-direction: column !important;
+  width: 80px;
+}
+
+.form-select:active,
+.form-select:focus {
+  box-shadow: none;
+}
+
+.form-control:active,
+.form-control:focus {
+  box-shadow: none;
+}
+
+.bi-calendar3 {
+  font-size: 24px;
+  color: rebeccapurple;
+}
+
+/* Akhir Form */
 
 /* Media Queries */
 
@@ -192,6 +283,10 @@ body {
     text-align: center;
   }
   .left-content-paragraph {
-    width: 200px;
+    width: 300px;
+  }
+  .left-content-paragraph h1 {
+    width: 400 !important;
+    text-align: center;
   }
 }
