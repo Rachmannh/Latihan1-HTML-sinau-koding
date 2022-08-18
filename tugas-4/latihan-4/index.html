@@ -8,16 +8,17 @@
   </head>
   <body></body>
   <script>
-    var jumlahAngkot = 10;
-    var angkotBeroprasi = 6;
-    var noAngkot = 1;
+    var totalAngkot = 10;
+    var ankotBeroperasi = 6;
 
-    while (noAngkot <= angkotBeroprasi) {
-      console.log("Angkot No. " + noAngkot + " beroprasi dengan baik");
-      noAngkot++;
-    }
-    for (let noAngkot = 7; noAngkot <= jumlahAnkot; noAngkot++) {
-      console.log("Angkot No. " + noAngkot + " sedang tidak beroprasi.");
+    for (var noAngkot = 1; noAngkot <= totalAngkot; noAngkot++) {
+      if (noAngkot <= 6) {
+        console.log("Angkot No." + noAngkot + " beroperasi dengan baik");
+      } else if (noAngkot === 8) {
+        console.log("Angkot No." + noAngkot + " sedang lembur");
+      } else {
+        console.log("Angkot No." + noAngkot + " tidak beroperasi dengan baik");
+      }
     }
   </script>
 </html>
