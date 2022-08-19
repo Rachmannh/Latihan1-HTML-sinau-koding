@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/sumanto.jpeg" />
+    <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Ini Halaman Rumah" />
   </div>
 </template>
